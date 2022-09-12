@@ -7777,6 +7777,10 @@ textarea.form-control-lg {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
 
+.text-top{
+  color: #002763;
+}
+
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
@@ -11326,7 +11330,8 @@ p {
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  background-color: #72FE18;
+  /* background-color: #72FE18; */
+  background-color: #B441B8;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 700;
@@ -11409,6 +11414,36 @@ p {
     margin-right: 0;
   }
 }
+
+.intensivo-verao{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #75FC17;
+  background-image: url("../assets/img/img-orlando.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+}
+
+.intensivo-text{
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+   .intensivo-verao{
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+    background-size: cover;
+  }
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -11441,7 +11476,7 @@ header.masthead .masthead-heading {
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
